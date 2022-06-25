@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kripikan.cartActivity">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="95dp"
+        android:text="List Pesanan"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Pesanan yang segera dikirim"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:alpha="0.9"
+        android:background="@drawable/background_btn2"
+        android:backgroundTintMode="src_over" />
+
+    <ImageView
+        android:id="@+id/gambarcart"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/ori" />
+
+    <TextView
+        android:id="@+id/textcart2"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:text="Original"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jumlah2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="230dp"
+        android:text="01"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:text="Rp. 15.000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/trash" />
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kripikan.cartActivity">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="25dp"
+        android:text="My Cart"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:background="@drawable/background_btn2"
+        android:alpha="0.9"
+        android:backgroundTintMode="src_over"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="170dp"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/gambarcart"
+        android:background="@drawable/ori"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/textcart"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="180dp"
+        android:text="Original"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="225dp"
+        android:text="Rp.15.000"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="200dp"
+        android:hint="1"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="570dp"
+        android:text="Total"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/hargacart"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:text="Rp. 15.000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="260dp"/>
+
+
+    <ImageButton
+        android:onClick="Cart1"
+        android:id="@+id/cart"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/background_btn4" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="635dp"
+        android:text="Add to cart"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

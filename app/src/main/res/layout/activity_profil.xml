@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kripikan.cartActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:onClick="back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+         />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/orang" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="275dp"
+        android:text="Hai,"
+        android:textColor="#FFE600"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="username"
+        android:id="@+id/profilname"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="335dp"
+        android:background="@color/white"
+        android:gravity="fill"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="email"
+        android:id="@+id/profilemail"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="415dp"
+        android:background="@color/white"
+        android:gravity="fill"
+        android:hint=" "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="address"
+        android:background="@color/white"
+        android:id="@+id/profilphone"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="495dp"
+
+        android:gravity="fill"
+        android:hint=""
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="phone"
+        android:id="@+id/profilalamat"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="575dp"
+        android:background="@color/white"
+        android:gravity="fill"
+        android:hint=""
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/background_btn4"
+        android:onClick="logout" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Log Out"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="150dp"/>
+
+</RelativeLayout>
